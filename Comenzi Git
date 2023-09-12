@@ -1,0 +1,69 @@
+git init: Initializes a new Git repository in the current directory.
+
+git clone <repository_url>: Creates a copy of a remote repository on your local machine.
+
+git add <file>: Stages a file or changes for commit.
+
+git commit -m "commit message": Records staged changes into the repository with a descriptive message.
+
+git status: Shows the status of your working directory, including untracked, modified, and staged files.
+
+git diff: Displays the differences between your working directory and the last commit.
+
+git log: Lists the commit history of the repository.
+
+git branch: Lists all local branches in the repository.
+
+git checkout <branch_name>: Switches to the specified branch.
+
+git checkout -b <new_branch>: Creates and checks out a new branch.
+
+git merge <branch_name>: Merges the changes from the specified branch into the current branch.
+
+git pull: Fetches changes from the remote repository and merges them into the current branch.
+
+git push: Pushes local commits to a remote repository.
+
+git remote -v: Lists all remote repositories associated with your local repository.
+
+git fetch: Downloads changes from a remote repository but does not merge them.
+
+git stash: Temporarily saves changes not ready for commit.
+
+git stash apply: Applies the most recent stash to your working directory.
+
+git remote add <name> <url>: Adds a new remote repository with a specified name.
+
+git remote remove <name>: Removes a remote repository.
+
+git reset <commit>: Resets the HEAD to a specified commit.
+
+git rm <file>: Removes a file from both the working directory and Git history.
+
+git blame <file>: Shows who last modified each line in a file.
+
+git tag: Lists all tags in the repository.
+
+git tag <tag_name>: Creates a new annotated tag at the current commit.
+
+git cherry-pick <commit>: Applies a specific commit from another branch to the current branch.
+
+git rebase <branch_name>: Moves or combines a sequence of commits to a new base commit.
+
+git remote show <remote_name>: Displays more information about a specific remote.
+
+git log --graph --oneline --all: Visualizes the commit history as a graph.
+
+git clean -n: Dry run of the git clean command to show what files would be deleted.
+
+git bisect: Helps find a specific commit that introduced a bug using binary search.
+
+git config --global user.name "Your Name": Sets your Git username globally.
+
+git config --global user.email "youremail@example.com": Sets your Git email globally.
+
+git stash list: Lists all stashes in the repository.
+
+git branch -d <branch_name>: Deletes a local branch.
+
+git push origin --delete <branch_name>: Deletes a remote branch.
